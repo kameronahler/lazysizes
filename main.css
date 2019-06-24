@@ -1,0 +1,22 @@
+img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+.wrapper{
+	display:inline-block;
+	max-width:40%;
+	margin:0 auto;
+	border:1em solid white;
+	overflow:hidden;
+}
+
+.lazyloading,
+.lazyload{
+	opacity:0;
+}
+.lazyloaded{
+	opacity:1;
+	transition: opacity 1s ease-in-out;
+}
